@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: #e7f6ff;
+}
+
+* {
+  font-family: "Inter";
+
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+  &::-webkit-scrollbar-thumb {
+    scrollbar-width: thin;
+    border-radius: 5px;
+    background: linear-gradient(
+      rgba(231, 246, 255, 1) 0%,
+      rgba(9, 98, 121, 1) 50%,
+      rgba(255, 160, 204, 1) 100%
+    );
+  }
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+}
+
+.wrapper {
+  max-width: 1080px;
+  margin: 85px auto;
+
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px #1687d933;
+}
